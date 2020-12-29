@@ -1,0 +1,6 @@
+framework module Pods_SwipeAwayMenuTests {
+  umbrella header "Pods-SwipeAwayMenuTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

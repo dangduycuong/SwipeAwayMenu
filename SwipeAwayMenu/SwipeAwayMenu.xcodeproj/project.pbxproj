@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BF159FBD6992CC5D9FED98 /* Pods_SwipeAwayMenu_SwipeAwayMenuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934299CA29923FCC22618313 /* Pods_SwipeAwayMenu_SwipeAwayMenuUITests.framework */; };
+		6AA95E397B63BAB19AAA9A2B /* Pods_SwipeAwayMenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E716134CC8B70C642BDDB85 /* Pods_SwipeAwayMenuTests.framework */; };
+		CD2F76448645750D81C03B66 /* Pods_SwipeAwayMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FEB6CAEF6C564B5EDDE8F7 /* Pods_SwipeAwayMenu.framework */; };
+		CE0204C6259B089A001EAE7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204C5259B089A001EAE7B /* AppDelegate.swift */; };
+		CE0204C8259B089A001EAE7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204C7259B089A001EAE7B /* SceneDelegate.swift */; };
+		CE0204CA259B089A001EAE7B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204C9259B089A001EAE7B /* SignInViewController.swift */; };
+		CE0204CD259B089A001EAE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0204CB259B089A001EAE7B /* Main.storyboard */; };
+		CE0204CF259B089B001EAE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0204CE259B089B001EAE7B /* Assets.xcassets */; };
+		CE0204D2259B089B001EAE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0204D0259B089B001EAE7B /* LaunchScreen.storyboard */; };
+		CE0204DD259B089B001EAE7B /* SwipeAwayMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204DC259B089B001EAE7B /* SwipeAwayMenuTests.swift */; };
+		CE0204E8259B089B001EAE7B /* SwipeAwayMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204E7259B089B001EAE7B /* SwipeAwayMenuUITests.swift */; };
+		CE0204FC259B0EA8001EAE7B /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204FB259B0EA8001EAE7B /* Storyboard.swift */; };
+		CE0204FE259B0EE9001EAE7B /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204FD259B0EE9001EAE7B /* BaseNavigationController.swift */; };
+		CE020500259B12AA001EAE7B /* MainSlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0204FF259B12AA001EAE7B /* MainSlideMenuViewController.swift */; };
+		CE020502259B159A001EAE7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020501259B159A001EAE7B /* HomeViewController.swift */; };
+		CE020506259B17C6001EAE7B /* NextToVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020504259B17C6001EAE7B /* NextToVCCell.swift */; };
+		CE020507259B17C6001EAE7B /* NextToVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE020505259B17C6001EAE7B /* NextToVCCell.xib */; };
+		CE020509259B1BD1001EAE7B /* MainSlide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE020508259B1BD1001EAE7B /* MainSlide.storyboard */; };
+		CE02050B259B1D1D001EAE7B /* MainLeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02050A259B1D1D001EAE7B /* MainLeftMenuViewController.swift */; };
+		CE02050F259B21FE001EAE7B /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02050E259B21FE001EAE7B /* BaseTableViewCell.swift */; };
+		CE020511259B2220001EAE7B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020510259B2220001EAE7B /* UIView.swift */; };
+		CE020515259B2285001EAE7B /* LeftMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE020513259B2285001EAE7B /* LeftMenuTableViewCell.swift */; };
+		CE020516259B2285001EAE7B /* LeftMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE020514259B2285001EAE7B /* LeftMenuTableViewCell.xib */; };
+		CE03FD02259B36D30036EADA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03FD01259B36D30036EADA /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE0204D9259B089B001EAE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0204BA259B089A001EAE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0204C1259B089A001EAE7B;
+			remoteInfo = SwipeAwayMenu;
+		};
+		CE0204E4259B089B001EAE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0204BA259B089A001EAE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0204C1259B089A001EAE7B;
+			remoteInfo = SwipeAwayMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E716134CC8B70C642BDDB85 /* Pods_SwipeAwayMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeAwayMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517941E7DB63D09482818862 /* Pods-SwipeAwayMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeAwayMenuTests.release.xcconfig"; path = "Target Support Files/Pods-SwipeAwayMenuTests/Pods-SwipeAwayMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BE7F05CF1F9D089AF6D576E /* Pods-SwipeAwayMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeAwayMenu.debug.xcconfig"; path = "Target Support Files/Pods-SwipeAwayMenu/Pods-SwipeAwayMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		80BA0A64DFF248054B702946 /* Pods-SwipeAwayMenu-SwipeAwayMenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeAwayMenu-SwipeAwayMenuUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeAwayMenu-SwipeAwayMenuUITests/Pods-SwipeAwayMenu-SwipeAwayMenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92FEB6CAEF6C564B5EDDE8F7 /* Pods_SwipeAwayMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeAwayMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934299CA29923FCC22618313 /* Pods_SwipeAwayMenu_SwipeAwayMenuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeAwayMenu_SwipeAwayMenuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8166E263FDAAF91C9AA61EF /* Pods-SwipeAwayMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeAwayMenu.release.xcconfig"; path = "Target Support Files/Pods-SwipeAwayMenu/Pods-SwipeAwayMenu.release.xcconfig"; sourceTree = "<group>"; };
+		C6E19FE0CE612DC5F0FF1961 /* Pods-SwipeAwayMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeAwayMenuTests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeAwayMenuTests/Pods-SwipeAwayMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE0204C2259B089A001EAE7B /* SwipeAwayMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAwayMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0204C5259B089A001EAE7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE0204C7259B089A001EAE7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE0204C9259B089A001EAE7B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CE0204CC259B089A001EAE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE0204CE259B089B001EAE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE0204D1259B089B001EAE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE0204D3259B089B001EAE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0204D8259B089B001EAE7B /* SwipeAwayMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAwayMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0204DC259B089B001EAE7B /* SwipeAwayMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAwayMenuTests.swift; sourceTree = "<group>"; };
+		CE0204DE259B089B001EAE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0204E3259B089B001EAE7B /* SwipeAwayMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAwayMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0204E7259B089B001EAE7B /* SwipeAwayMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAwayMenuUITests.swift; sourceTree = "<group>"; };
+		CE0204E9259B089B001EAE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0204FB259B0EA8001EAE7B /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		CE0204FD259B0EE9001EAE7B /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		CE0204FF259B12AA001EAE7B /* MainSlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSlideMenuViewController.swift; sourceTree = "<group>"; };
+		CE020501259B159A001EAE7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE020504259B17C6001EAE7B /* NextToVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextToVCCell.swift; sourceTree = "<group>"; };
+		CE020505259B17C6001EAE7B /* NextToVCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextToVCCell.xib; sourceTree = "<group>"; };
+		CE020508259B1BD1001EAE7B /* MainSlide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainSlide.storyboard; sourceTree = "<group>"; };
+		CE02050A259B1D1D001EAE7B /* MainLeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLeftMenuViewController.swift; sourceTree = "<group>"; };
+		CE02050E259B21FE001EAE7B /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		CE020510259B2220001EAE7B /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CE020513259B2285001EAE7B /* LeftMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuTableViewCell.swift; sourceTree = "<group>"; };
+		CE020514259B2285001EAE7B /* LeftMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftMenuTableViewCell.xib; sourceTree = "<group>"; };
+		CE03FD01259B36D30036EADA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EC9A5CF885F4BE72CCBB8663 /* Pods-SwipeAwayMenu-SwipeAwayMenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeAwayMenu-SwipeAwayMenuUITests.release.xcconfig"; path = "Target Support Files/Pods-SwipeAwayMenu-SwipeAwayMenuUITests/Pods-SwipeAwayMenu-SwipeAwayMenuUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE0204BF259B089A001EAE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2F76448645750D81C03B66 /* Pods_SwipeAwayMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0204D5259B089B001EAE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA95E397B63BAB19AAA9A2B /* Pods_SwipeAwayMenuTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0204E0259B089B001EAE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BF159FBD6992CC5D9FED98 /* Pods_SwipeAwayMenu_SwipeAwayMenuUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE37149AA9428608BFFDC3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7F05CF1F9D089AF6D576E /* Pods-SwipeAwayMenu.debug.xcconfig */,
+				B8166E263FDAAF91C9AA61EF /* Pods-SwipeAwayMenu.release.xcconfig */,
+				80BA0A64DFF248054B702946 /* Pods-SwipeAwayMenu-SwipeAwayMenuUITests.debug.xcconfig */,
+				EC9A5CF885F4BE72CCBB8663 /* Pods-SwipeAwayMenu-SwipeAwayMenuUITests.release.xcconfig */,
+				C6E19FE0CE612DC5F0FF1961 /* Pods-SwipeAwayMenuTests.debug.xcconfig */,
+				517941E7DB63D09482818862 /* Pods-SwipeAwayMenuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B37DA2036E6BC50E2E8DA98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FEB6CAEF6C564B5EDDE8F7 /* Pods_SwipeAwayMenu.framework */,
+				934299CA29923FCC22618313 /* Pods_SwipeAwayMenu_SwipeAwayMenuUITests.framework */,
+				1E716134CC8B70C642BDDB85 /* Pods_SwipeAwayMenuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0204B9259B089A001EAE7B = {
+			isa = PBXGroup;
+			children = (
+				CE0204C4259B089A001EAE7B /* SwipeAwayMenu */,
+				CE0204DB259B089B001EAE7B /* SwipeAwayMenuTests */,
+				CE0204E6259B089B001EAE7B /* SwipeAwayMenuUITests */,
+				CE0204C3259B089A001EAE7B /* Products */,
+				1DE37149AA9428608BFFDC3F /* Pods */,
+				B37DA2036E6BC50E2E8DA98C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE0204C3259B089A001EAE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0204C2259B089A001EAE7B /* SwipeAwayMenu.app */,
+				CE0204D8259B089B001EAE7B /* SwipeAwayMenuTests.xctest */,
+				CE0204E3259B089B001EAE7B /* SwipeAwayMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE0204C4259B089A001EAE7B /* SwipeAwayMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CE0204C5259B089A001EAE7B /* AppDelegate.swift */,
+				CE0204C7259B089A001EAE7B /* SceneDelegate.swift */,
+				CE0204FB259B0EA8001EAE7B /* Storyboard.swift */,
+				CE020503259B17A5001EAE7B /* NextToVCCell */,
+				CE0204C9259B089A001EAE7B /* SignInViewController.swift */,
+				CE0204FD259B0EE9001EAE7B /* BaseNavigationController.swift */,
+				CE0204FF259B12AA001EAE7B /* MainSlideMenuViewController.swift */,
+				CE020501259B159A001EAE7B /* HomeViewController.swift */,
+				CE03FD01259B36D30036EADA /* DetailViewController.swift */,
+				CE02050A259B1D1D001EAE7B /* MainLeftMenuViewController.swift */,
+				CE02050E259B21FE001EAE7B /* BaseTableViewCell.swift */,
+				CE020510259B2220001EAE7B /* UIView.swift */,
+				CE020512259B2270001EAE7B /* LeftMenuTableViewCell */,
+				CE0204CB259B089A001EAE7B /* Main.storyboard */,
+				CE020508259B1BD1001EAE7B /* MainSlide.storyboard */,
+				CE0204CE259B089B001EAE7B /* Assets.xcassets */,
+				CE0204D0259B089B001EAE7B /* LaunchScreen.storyboard */,
+				CE0204D3259B089B001EAE7B /* Info.plist */,
+			);
+			path = SwipeAwayMenu;
+			sourceTree = "<group>";
+		};
+		CE0204DB259B089B001EAE7B /* SwipeAwayMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0204DC259B089B001EAE7B /* SwipeAwayMenuTests.swift */,
+				CE0204DE259B089B001EAE7B /* Info.plist */,
+			);
+			path = SwipeAwayMenuTests;
+			sourceTree = "<group>";
+		};
+		CE0204E6259B089B001EAE7B /* SwipeAwayMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0204E7259B089B001EAE7B /* SwipeAwayMenuUITests.swift */,
+				CE0204E9259B089B001EAE7B /* Info.plist */,
+			);
+			path = SwipeAwayMenuUITests;
+			sourceTree = "<group>";
+		};
+		CE020503259B17A5001EAE7B /* NextToVCCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE020504259B17C6001EAE7B /* NextToVCCell.swift */,
+				CE020505259B17C6001EAE7B /* NextToVCCell.xib */,
+			);
+			path = NextToVCCell;
+			sourceTree = "<group>";
+		};
+		CE020512259B2270001EAE7B /* LeftMenuTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE020513259B2285001EAE7B /* LeftMenuTableViewCell.swift */,
+				CE020514259B2285001EAE7B /* LeftMenuTableViewCell.xib */,
+			);
+			path = LeftMenuTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE0204C1259B089A001EAE7B /* SwipeAwayMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0204EC259B089B001EAE7B /* Build configuration list for PBXNativeTarget "SwipeAwayMenu" */;
+			buildPhases = (
+				D3929E866882E64D6DC98BBF /* [CP] Check Pods Manifest.lock */,
+				CE0204BE259B089A001EAE7B /* Sources */,
+				CE0204BF259B089A001EAE7B /* Frameworks */,
+				CE0204C0259B089A001EAE7B /* Resources */,
+				B4D0FB2ACAEB4571C994B0ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeAwayMenu;
+			productName = SwipeAwayMenu;
+			productReference = CE0204C2259B089A001EAE7B /* SwipeAwayMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE0204D7259B089B001EAE7B /* SwipeAwayMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0204EF259B089B001EAE7B /* Build configuration list for PBXNativeTarget "SwipeAwayMenuTests" */;
+			buildPhases = (
+				E9BA5DB9F1079CC335044BA0 /* [CP] Check Pods Manifest.lock */,
+				CE0204D4259B089B001EAE7B /* Sources */,
+				CE0204D5259B089B001EAE7B /* Frameworks */,
+				CE0204D6259B089B001EAE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0204DA259B089B001EAE7B /* PBXTargetDependency */,
+			);
+			name = SwipeAwayMenuTests;
+			productName = SwipeAwayMenuTests;
+			productReference = CE0204D8259B089B001EAE7B /* SwipeAwayMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE0204E2259B089B001EAE7B /* SwipeAwayMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0204F2259B089B001EAE7B /* Build configuration list for PBXNativeTarget "SwipeAwayMenuUITests" */;
+			buildPhases = (
+				9124290026A00683D65C6A8C /* [CP] Check Pods Manifest.lock */,
+				CE0204DF259B089B001EAE7B /* Sources */,
+				CE0204E0259B089B001EAE7B /* Frameworks */,
+				CE0204E1259B089B001EAE7B /* Resources */,
+				9058E005C537155C982F75B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0204E5259B089B001EAE7B /* PBXTargetDependency */,
+			);
+			name = SwipeAwayMenuUITests;
+			productName = SwipeAwayMenuUITests;
+			productReference = CE0204E3259B089B001EAE7B /* SwipeAwayMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE0204BA259B089A001EAE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Dang Duy Cuong";
+				TargetAttributes = {
+					CE0204C1259B089A001EAE7B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					CE0204D7259B089B001EAE7B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = CE0204C1259B089A001EAE7B;
+					};
+					CE0204E2259B089B001EAE7B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = CE0204C1259B089A001EAE7B;
+					};
+				};
+			};
+			buildConfigurationList = CE0204BD259B089A001EAE7B /* Build configuration list for PBXProject "SwipeAwayMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE0204B9259B089A001EAE7B;
+			productRefGroup = CE0204C3259B089A001EAE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE0204C1259B089A001EAE7B /* SwipeAwayMenu */,
+				CE0204D7259B089B001EAE7B /* SwipeAwayMenuTests */,
+				CE0204E2259B089B001EAE7B /* SwipeAwayMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE0204C0259B089A001EAE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE020507259B17C6001EAE7B /* NextToVCCell.xib in Resources */,
+				CE020516259B2285001EAE7B /* LeftMenuTableViewCell.xib in Resources */,
+				CE0204D2259B089B001EAE7B /* LaunchScreen.storyboard in Resources */,
+				CE020509259B1BD1001EAE7B /* MainSlide.storyboard in Resources */,
+				CE0204CF259B089B001EAE7B /* Assets.xcassets in Resources */,
+				CE0204CD259B089A001EAE7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0204D6259B089B001EAE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0204E1259B089B001EAE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9058E005C537155C982F75B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeAwayMenu-SwipeAwayMenuUITests/Pods-SwipeAwayMenu-SwipeAwayMenuUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeAwayMenu-SwipeAwayMenuUITests/Pods-SwipeAwayMenu-SwipeAwayMenuUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeAwayMenu-SwipeAwayMenuUITests/Pods-SwipeAwayMenu-SwipeAwayMenuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9124290026A00683D65C6A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeAwayMenu-SwipeAwayMenuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D0FB2ACAEB4571C994B0ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeAwayMenu/Pods-SwipeAwayMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeAwayMenu/Pods-SwipeAwayMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeAwayMenu/Pods-SwipeAwayMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3929E866882E64D6DC98BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeAwayMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BA5DB9F1079CC335044BA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeAwayMenuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE0204BE259B089A001EAE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE020511259B2220001EAE7B /* UIView.swift in Sources */,
+				CE0204FE259B0EE9001EAE7B /* BaseNavigationController.swift in Sources */,
+				CE0204CA259B089A001EAE7B /* SignInViewController.swift in Sources */,
+				CE0204C6259B089A001EAE7B /* AppDelegate.swift in Sources */,
+				CE0204FC259B0EA8001EAE7B /* Storyboard.swift in Sources */,
+				CE02050F259B21FE001EAE7B /* BaseTableViewCell.swift in Sources */,
+				CE020502259B159A001EAE7B /* HomeViewController.swift in Sources */,
+				CE02050B259B1D1D001EAE7B /* MainLeftMenuViewController.swift in Sources */,
+				CE020500259B12AA001EAE7B /* MainSlideMenuViewController.swift in Sources */,
+				CE020515259B2285001EAE7B /* LeftMenuTableViewCell.swift in Sources */,
+				CE0204C8259B089A001EAE7B /* SceneDelegate.swift in Sources */,
+				CE020506259B17C6001EAE7B /* NextToVCCell.swift in Sources */,
+				CE03FD02259B36D30036EADA /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0204D4259B089B001EAE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0204DD259B089B001EAE7B /* SwipeAwayMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0204DF259B089B001EAE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0204E8259B089B001EAE7B /* SwipeAwayMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0204DA259B089B001EAE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0204C1259B089A001EAE7B /* SwipeAwayMenu */;
+			targetProxy = CE0204D9259B089B001EAE7B /* PBXContainerItemProxy */;
+		};
+		CE0204E5259B089B001EAE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0204C1259B089A001EAE7B /* SwipeAwayMenu */;
+			targetProxy = CE0204E4259B089B001EAE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE0204CB259B089A001EAE7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0204CC259B089A001EAE7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE0204D0259B089B001EAE7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0204D1259B089B001EAE7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE0204EA259B089B001EAE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE0204EB259B089B001EAE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE0204ED259B089B001EAE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE7F05CF1F9D089AF6D576E /* Pods-SwipeAwayMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36XF6BCMY;
+				INFOPLIST_FILE = SwipeAwayMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.SwipeAwayMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE0204EE259B089B001EAE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8166E263FDAAF91C9AA61EF /* Pods-SwipeAwayMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36XF6BCMY;
+				INFOPLIST_FILE = SwipeAwayMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.SwipeAwayMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE0204F0259B089B001EAE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E19FE0CE612DC5F0FF1961 /* Pods-SwipeAwayMenuTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36XF6BCMY;
+				INFOPLIST_FILE = SwipeAwayMenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.SwipeAwayMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeAwayMenu.app/SwipeAwayMenu";
+			};
+			name = Debug;
+		};
+		CE0204F1259B089B001EAE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517941E7DB63D09482818862 /* Pods-SwipeAwayMenuTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36XF6BCMY;
+				INFOPLIST_FILE = SwipeAwayMenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.SwipeAwayMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeAwayMenu.app/SwipeAwayMenu";
+			};
+			name = Release;
+		};
+		CE0204F3259B089B001EAE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BA0A64DFF248054B702946 /* Pods-SwipeAwayMenu-SwipeAwayMenuUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36XF6BCMY;
+				INFOPLIST_FILE = SwipeAwayMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.SwipeAwayMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeAwayMenu;
+			};
+			name = Debug;
+		};
+		CE0204F4259B089B001EAE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9A5CF885F4BE72CCBB8663 /* Pods-SwipeAwayMenu-SwipeAwayMenuUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36XF6BCMY;
+				INFOPLIST_FILE = SwipeAwayMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.SwipeAwayMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeAwayMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE0204BD259B089A001EAE7B /* Build configuration list for PBXProject "SwipeAwayMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0204EA259B089B001EAE7B /* Debug */,
+				CE0204EB259B089B001EAE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0204EC259B089B001EAE7B /* Build configuration list for PBXNativeTarget "SwipeAwayMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0204ED259B089B001EAE7B /* Debug */,
+				CE0204EE259B089B001EAE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0204EF259B089B001EAE7B /* Build configuration list for PBXNativeTarget "SwipeAwayMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0204F0259B089B001EAE7B /* Debug */,
+				CE0204F1259B089B001EAE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0204F2259B089B001EAE7B /* Build configuration list for PBXNativeTarget "SwipeAwayMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0204F3259B089B001EAE7B /* Debug */,
+				CE0204F4259B089B001EAE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE0204BA259B089A001EAE7B /* Project object */;
+}

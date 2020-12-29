@@ -1,0 +1,6 @@
+framework module Pods_SwipeAwayMenu {
+  umbrella header "Pods-SwipeAwayMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
